@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-09-08T21:02:30Z",
+  "pm": "uv",
+  "pm_version_tested": "0.12.11",
+  "packages": {
+    "certifi": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:0569859f96c099554468fd44d3f7c2b6f26f1e36d5f03add1c02e2f4abad4bc3",
+        "sha512:3d3efb53df5974f1fb7d3d2b37e8d5a9d0f0a72bcaec1aa9e61c8c1c6b15c4b7b1a6c4e8f2d1a5b9c3e7f0d2a4b6c8e0f2a4b6c8e0f2a4b6c8e0f2a4b6c8e01",
+        "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1",
+        "sha512:8e4a3c7b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c"
+      ],
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2024.2.2"
+    },
+    "idna": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:028ff3aadf0609c1fd278d8ea3089299412a7f6aa0d574cfd6d6f34e8456e51f",
+        "sha512:1f2a4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b",
+        "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0",
+        "sha512:5c9e1a3b7f0d8e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a"
+      ],
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "3.7"
+    },
+    "urllib3": {
+      "dependencies": [],
+      "group": "main",
+      "hashes": [
+        "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19",
+        "sha512:9b3e5a1c7d2f4a8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8",
+        "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d",
+        "sha512:2a5b7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d"
+      ],
+      "marker": null,
+      "source": "registry",
+      "source_detail": {
+        "registry_url": "https://pypi.org/simple"
+      },
+      "version": "2.2.1"
+    }
+  },
+  "project_metadata": {
+    "groups": [
+      "main"
+    ],
+    "python_constraint": ">=3.11"
+  },
+  "root": {
+    "dependencies": [
+      "certifi",
+      "idna",
+      "urllib3"
+    ],
+    "name": "hash-probe",
+    "version": "0.1.0"
+  },
+  "schema_version": "1.2",
+  "source_file": "pyproject.toml",
+  "warnings": [
+    "Exploratory probe: UA multi-algorithm hash parsing (sha256+sha512 per artifact) is not explicitly documented in the upstream resolver file. Treat hashes[] mismatches as exploratory findings.",
+    "uv tool version is NOT pinnable via scanSettings.versioning (not in install-tool list). Probe requires uv >= 0.12.11 installed out-of-band for lockfile format conformance."
+  ]
+}
