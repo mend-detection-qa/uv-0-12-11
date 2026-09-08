@@ -1,0 +1,18 @@
+[project]
+name = "hash-probe"
+version = "0.1.0"
+description = "UV 0.12.11 pylock.toml hash/checksum probe (PEP 751)"
+requires-python = ">=3.11"
+dependencies = [
+  "certifi>=2024.2.2",
+  "idna>=3.7",
+  "urllib3>=2.2.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+# No resolution strategy override — use default (highest compatible).
+# This probe targets lockfile hash fields, not resolution strategy.
