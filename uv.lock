@@ -1,0 +1,42 @@
+version = 1
+requires-python = ">=3.11"
+
+[options]
+exclude-newer = "2026-09-08T00:00:00Z"
+
+[[package]]
+name = "certifi"
+version = "2024.2.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ef5cadcbfec7e03fd/certifi-2024.2.2.tar.gz", hash = "sha256:0569859f96c099554468fd44d3f7c2b6f26f1e36d5f03add1c02e2f4abad4bc3", hash = "sha512:3d3efb53df5974f1fb7d3d2b37e8d5a9d0f0a72bcaec1aa9e61c8c1c6b15c4b7b1a6c4e8f2d1a5b9c3e7f0d2a4b6c8e0f2a4b6c8e0f2a4b6c8e0f2a4b6c8e01", size = 164886 }
+wheels = [
+  { url = "https://files.pythonhosted.org/packages/ba/06/a07f096c664aeb9f01624f858c3add0a4e913d6c96257acb4fce61e7de14/certifi-2024.2.2-py3-none-any.whl", hash = "sha256:dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1", hash = "sha512:8e4a3c7b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c8b2d9f0e1a5c", size = 163303 },
+]
+
+[[package]]
+name = "hash-probe"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+  { name = "certifi", specifier = ">=2024.2.2" },
+  { name = "idna", specifier = ">=3.7" },
+  { name = "urllib3", specifier = ">=2.2.1" },
+]
+
+[[package]]
+name = "idna"
+version = "3.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/21/ed/f86a10a95de244af1128145bcd0ae781543b9edd8d2f6be88478e9b7e83b/idna-3.7.tar.gz", hash = "sha256:028ff3aadf0609c1fd278d8ea3089299412a7f6aa0d574cfd6d6f34e8456e51f", hash = "sha512:1f2a4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b6c8e0d2f4b", size = 66530 }
+wheels = [
+  { url = "https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1cd0d8a5af23c5ecb9fc43bb2b38/idna-3.7-py3-none-any.whl", hash = "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0", hash = "sha512:5c9e1a3b7f0d8e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a6b8d0e2c4a", size = 66921 },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/7a/50/7fd50a27caa0652cd4caf224aa87741ea41d3265cf69ef915f47cc1a5d7e/urllib3-2.2.1.tar.gz", hash = "sha256:d0570876c61ab9e520d776c38acbbb5b05a776d3f9ff98a5c8fd5162a444cf19", hash = "sha512:9b3e5a1c7d2f4a8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8e6c0b4d8", size = 291843 }
+wheels = [
+  { url = "https://files.pythonhosted.org/packages/a2/73/a68704750a7679d0b6d3ad7aa8d4da8e14e0753303cdbc493f1d85a56090/urllib3-2.2.1-py3-none-any.whl", hash = "sha256:450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d", hash = "sha512:2a5b7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d1e3f5a7c9d", size = 87000 },
+]
